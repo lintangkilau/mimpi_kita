@@ -62,7 +62,7 @@ class _FundPendingWidgetState extends State<FundPendingWidget> {
                     child: Icon(
                       Icons.arrow_back,
                       color: Colors.black,
-                      size: 30.0,
+                      size: 28.0,
                     ),
                   ),
                 ),
@@ -92,13 +92,13 @@ class _FundPendingWidgetState extends State<FundPendingWidget> {
                         padding: EdgeInsetsDirectional.fromSTEB(
                             15.0, 40.0, 0.0, 0.0),
                         child: Text(
-                          'Antrian Pencairan',
+                          'Antrian Pencairan Donasi',
                           style: FlutterFlowTheme.of(context)
                               .bodyMedium
                               .override(
                                 fontFamily: 'Readex Pro',
                                 color: FlutterFlowTheme.of(context).primaryText,
-                                fontSize: 26.0,
+                                fontSize: 30.0,
                                 letterSpacing: 0.0,
                                 fontWeight: FontWeight.bold,
                               ),
@@ -164,13 +164,13 @@ class _FundPendingWidgetState extends State<FundPendingWidget> {
                                         padding: EdgeInsetsDirectional.fromSTEB(
                                             0.0, 40.0, 0.0, 0.0),
                                         child: Text(
-                                          'Belum ada Penggalangan',
+                                          'Belum ada Penggalangan Donasi',
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
                                                 fontFamily: 'Readex Pro',
                                                 color: Color(0xFF818898),
-                                                fontSize: 16.0,
+                                                fontSize: 17.0,
                                                 letterSpacing: 0.0,
                                                 fontWeight: FontWeight.w600,
                                               ),
@@ -181,7 +181,7 @@ class _FundPendingWidgetState extends State<FundPendingWidget> {
                                     alignment: AlignmentDirectional(0.0, -1.0),
                                     child: Padding(
                                       padding: EdgeInsetsDirectional.fromSTEB(
-                                          20.0, 30.0, 20.0, 0.0),
+                                          15.0, 30.0, 20.0, 0.0),
                                       child:
                                           StreamBuilder<List<DonationsRecord>>(
                                         stream: queryDonationsRecord(
@@ -398,7 +398,7 @@ class _FundPendingWidgetState extends State<FundPendingWidget> {
                                                                               context)
                                                                           .primaryText,
                                                                       fontSize:
-                                                                          18.0,
+                                                                          16.0,
                                                                       letterSpacing:
                                                                           0.0,
                                                                     ),
@@ -466,7 +466,7 @@ class _FundPendingWidgetState extends State<FundPendingWidget> {
                                                                           color:
                                                                               Color(0xFF818898),
                                                                           fontSize:
-                                                                              12.0,
+                                                                              14.0,
                                                                           letterSpacing:
                                                                               0.0,
                                                                         ),
