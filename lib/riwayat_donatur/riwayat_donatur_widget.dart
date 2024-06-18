@@ -126,7 +126,7 @@ class _RiwayatDonaturWidgetState extends State<RiwayatDonaturWidget> {
                                   alignment: AlignmentDirectional(0.0, -1.0),
                                   child: Padding(
                                     padding: EdgeInsetsDirectional.fromSTEB(
-                                        20.0, 35.0, 20.0, 0.0),
+                                        15.0, 35.0, 20.0, 0.0),
                                     child: StreamBuilder<List<DonateRecord>>(
                                       stream: queryDonateRecord(
                                         queryBuilder: (donateRecord) =>
@@ -174,7 +174,7 @@ class _RiwayatDonaturWidgetState extends State<RiwayatDonaturWidget> {
                                                 child: Padding(
                                                   padding: EdgeInsetsDirectional
                                                       .fromSTEB(
-                                                          0.0, 5.0, 0.0, 10.0),
+                                                          0.0, 7.0, 0.0, 10.0),
                                                   child: Container(
                                                     width: double.infinity,
                                                     decoration: BoxDecoration(
@@ -244,7 +244,7 @@ class _RiwayatDonaturWidgetState extends State<RiwayatDonaturWidget> {
                                                                       fontFamily:
                                                                           'Readex Pro',
                                                                       fontSize:
-                                                                          16.0,
+                                                                          15.0,
                                                                       letterSpacing:
                                                                           0.0,
                                                                     ),
@@ -252,7 +252,7 @@ class _RiwayatDonaturWidgetState extends State<RiwayatDonaturWidget> {
                                                             },
                                                           ),
                                                           Text(
-                                                            ' Donasi Senilai',
+                                                            ' Jumlah Donasi',
                                                             style: FlutterFlowTheme
                                                                     .of(context)
                                                                 .bodyMedium
@@ -260,7 +260,7 @@ class _RiwayatDonaturWidgetState extends State<RiwayatDonaturWidget> {
                                                                   fontFamily:
                                                                       'Readex Pro',
                                                                   fontSize:
-                                                                      16.0,
+                                                                      15.0,
                                                                   letterSpacing:
                                                                       0.0,
                                                                 ),
@@ -269,7 +269,7 @@ class _RiwayatDonaturWidgetState extends State<RiwayatDonaturWidget> {
                                                             padding:
                                                                 EdgeInsetsDirectional
                                                                     .fromSTEB(
-                                                                        5.0,
+                                                                        7.0,
                                                                         0.0,
                                                                         0.0,
                                                                         0.0),
@@ -286,7 +286,7 @@ class _RiwayatDonaturWidgetState extends State<RiwayatDonaturWidget> {
                                                                     color: Color(
                                                                         0xFFFEC739),
                                                                     fontSize:
-                                                                        16.0,
+                                                                        15.0,
                                                                     letterSpacing:
                                                                         0.0,
                                                                     fontWeight:
@@ -312,9 +312,9 @@ class _RiwayatDonaturWidgetState extends State<RiwayatDonaturWidget> {
                                     false)
                                   Padding(
                                     padding: EdgeInsetsDirectional.fromSTEB(
-                                        0.0, 30.0, 0.0, 20.0),
+                                        0.0, 28.0, 0.0, 20.0),
                                     child: Text(
-                                      'Belum ada donasi yang dilakukan',
+                                      'Tidak ada donasi yang dilakukan oleh anda',
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
