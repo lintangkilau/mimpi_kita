@@ -58,7 +58,7 @@ class _BeasiswaWidgetState extends State<BeasiswaWidget> {
                     children: [
                       Padding(
                         padding: EdgeInsetsDirectional.fromSTEB(
-                            20.0, 40.0, 20.0, 0.0),
+                            20.0, 35.0, 20.0, 0.0),
                         child: InkWell(
                           splashColor: Colors.transparent,
                           focusColor: Colors.transparent,
@@ -107,8 +107,8 @@ class _BeasiswaWidgetState extends State<BeasiswaWidget> {
                             borderRadius: BorderRadius.only(
                               bottomLeft: Radius.circular(0.0),
                               bottomRight: Radius.circular(0.0),
-                              topLeft: Radius.circular(35.0),
-                              topRight: Radius.circular(35.0),
+                              topLeft: Radius.circular(36.0),
+                              topRight: Radius.circular(36.0),
                             ),
                           ),
                           child: Padding(
@@ -121,7 +121,7 @@ class _BeasiswaWidgetState extends State<BeasiswaWidget> {
                                   alignment: AlignmentDirectional(-1.0, -1.0),
                                   child: Padding(
                                     padding: EdgeInsetsDirectional.fromSTEB(
-                                        0.0, 35.0, 0.0, 0.0),
+                                        0.0, 36.0, 0.0, 0.0),
                                     child: Text(
                                       'Sorotan',
                                       style: FlutterFlowTheme.of(context)
@@ -221,7 +221,7 @@ class _BeasiswaWidgetState extends State<BeasiswaWidget> {
                                                             .fromSTEB(10.0, 0.0,
                                                                 0.0, 0.0),
                                                     child: Text(
-                                                      'Tenggat Sunday, 16 June 2024',
+                                                      'Tenggat Minggu, 23 Juni 2024',
                                                       style: FlutterFlowTheme
                                                               .of(context)
                                                           .bodyMedium
@@ -230,7 +230,7 @@ class _BeasiswaWidgetState extends State<BeasiswaWidget> {
                                                                 'Readex Pro',
                                                             color: Color(
                                                                 0xFF818898),
-                                                            fontSize: 10.0,
+                                                            fontSize: 11.0,
                                                             letterSpacing: 0.0,
                                                           ),
                                                     ),
@@ -255,7 +255,7 @@ class _BeasiswaWidgetState extends State<BeasiswaWidget> {
                                           .bodyMedium
                                           .override(
                                             fontFamily: 'Readex Pro',
-                                            fontSize: 16.0,
+                                            fontSize: 18.0,
                                             letterSpacing: 0.0,
                                             fontWeight: FontWeight.bold,
                                           ),
@@ -332,7 +332,7 @@ class _BeasiswaWidgetState extends State<BeasiswaWidget> {
                                                           .override(
                                                             fontFamily:
                                                                 'Readex Pro',
-                                                            fontSize: 14.0,
+                                                            fontSize: 15.0,
                                                             letterSpacing: 0.0,
                                                           ),
                                                     ),
@@ -348,7 +348,7 @@ class _BeasiswaWidgetState extends State<BeasiswaWidget> {
                                                             .fromSTEB(10.0, 0.0,
                                                                 0.0, 0.0),
                                                     child: Text(
-                                                      'Tenggat Sunday, 16 June 2024',
+                                                      'Tenggat Minggu, 23 Juni 2024',
                                                       style: FlutterFlowTheme
                                                               .of(context)
                                                           .bodyMedium
@@ -357,7 +357,7 @@ class _BeasiswaWidgetState extends State<BeasiswaWidget> {
                                                                 'Readex Pro',
                                                             color: Color(
                                                                 0xFF818898),
-                                                            fontSize: 10.0,
+                                                            fontSize: 11.0,
                                                             letterSpacing: 0.0,
                                                           ),
                                                     ),
