@@ -60,7 +60,7 @@ class _SearchWidgetState extends State<SearchWidget> {
                   children: [
                     Padding(
                       padding:
-                          EdgeInsetsDirectional.fromSTEB(20.0, 40.0, 20.0, 0.0),
+                          EdgeInsetsDirectional.fromSTEB(15.0, 40.0, 20.0, 0.0),
                       child: Container(
                         width: double.infinity,
                         height: 48.0,
@@ -70,7 +70,7 @@ class _SearchWidgetState extends State<SearchWidget> {
                         ),
                         child: Padding(
                           padding: EdgeInsetsDirectional.fromSTEB(
-                              15.0, 0.0, 15.0, 0.0),
+                              20.0, 0.0, 15.0, 0.0),
                           child: Row(
                             mainAxisSize: MainAxisSize.max,
                             children: [
@@ -190,7 +190,7 @@ class _SearchWidgetState extends State<SearchWidget> {
                             ),
                             child: Padding(
                               padding: EdgeInsetsDirectional.fromSTEB(
-                                  20.0, 0.0, 20.0, 220.0),
+                                  15.0, 0.0, 20.0, 220.0),
                               child: SingleChildScrollView(
                                 child: Column(
                                   mainAxisSize: MainAxisSize.max,
@@ -202,7 +202,7 @@ class _SearchWidgetState extends State<SearchWidget> {
                                         padding: EdgeInsetsDirectional.fromSTEB(
                                             0.0, 35.0, 0.0, 10.0),
                                         child: Text(
-                                          'Hasil Pencarian',
+                                          'Hasil Pencarian Anda',
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(

@@ -120,7 +120,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                         Padding(
                                           padding:
                                               EdgeInsetsDirectional.fromSTEB(
-                                                  0.0, 10.0, 0.0, 0.0),
+                                                  0.0, 15.0, 0.0, 0.0),
                                           child: Text(
                                             currentUserEmail,
                                             style: FlutterFlowTheme.of(context)
@@ -360,7 +360,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                   alignment: AlignmentDirectional(-1.0, 0.0),
                                   child: Padding(
                                     padding: EdgeInsetsDirectional.fromSTEB(
-                                        0.0, 10.0, 0.0, 10.0),
+                                        0.0, 15.0, 0.0, 10.0),
                                     child: InkWell(
                                       splashColor: Colors.transparent,
                                       focusColor: Colors.transparent,
@@ -419,7 +419,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                                   child: Padding(
                                                     padding:
                                                         EdgeInsetsDirectional
-                                                            .fromSTEB(10.0, 8.0,
+                                                            .fromSTEB(15.0, 8.0,
                                                                 5.0, 5.0),
                                                     child: Text(
                                                       'Terkumpul',
@@ -445,7 +445,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                                     padding:
                                                         EdgeInsetsDirectional
                                                             .fromSTEB(0.0, 8.0,
-                                                                10.0, 5.0),
+                                                                15.0, 5.0),
                                                     child: Text(
                                                       columnDonationsRecord
                                                           .value
@@ -472,7 +472,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                               child: Padding(
                                                 padding: EdgeInsetsDirectional
                                                     .fromSTEB(
-                                                        10.0, 5.0, 0.0, 0.0),
+                                                        15.0, 5.0, 0.0, 0.0),
                                                 child: Text(
                                                   columnDonationsRecord.title,
                                                   style: FlutterFlowTheme.of(
@@ -501,7 +501,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                                   child: Padding(
                                                     padding:
                                                         EdgeInsetsDirectional
-                                                            .fromSTEB(10.0, 5.0,
+                                                            .fromSTEB(15.0, 5.0,
                                                                 0.0, 0.0),
                                                     child: Text(
                                                       'Tenggat ',
@@ -566,14 +566,14 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                               padding: EdgeInsetsDirectional.fromSTEB(
                                   0.0, 20.0, 0.0, 20.0),
                               child: Text(
-                                'Anda belum membuat\npenggalangan dana',
+                                'Maaf, Anda belum membuat\npenggalangan dana.',
                                 textAlign: TextAlign.center,
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
                                       fontFamily: 'Readex Pro',
                                       color: Color(0xFF818898),
-                                      fontSize: 16.0,
+                                      fontSize: 17.0,
                                       letterSpacing: 0.0,
                                       fontWeight: FontWeight.w600,
                                     ),
